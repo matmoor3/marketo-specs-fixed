@@ -117,21 +117,9 @@
           {
             "name": "status",
             "in": "query",
-            "description": "Comma separated list of statuses to filter on.",
+            "description": "Comma separated list of statuses to filter on. Allowed values: created, queued, processing, cancelled, completed, failed.",
             "required": false,
-            "type": "array",
-            "items": {
-              "type": "string",
-              "enum": [
-                "created",
-                "queued",
-                "processing",
-                "cancelled",
-                "completed",
-                "failed"
-              ]
-            },
-            "collectionFormat": "multi"
+            "type": "string"
           },
           {
             "name": "batchSize",
@@ -856,21 +844,9 @@
           {
             "name": "status",
             "in": "query",
-            "description": "Comma separated list of statuses to filter on.",
+            "description": "Comma separated list of statuses to filter on. Allowed values: created, queued, processing, cancelled, completed, failed.",
             "required": false,
-            "type": "array",
-            "items": {
-              "type": "string",
-              "enum": [
-                "created",
-                "queued",
-                "processing",
-                "cancelled",
-                "completed",
-                "failed"
-              ]
-            },
-            "collectionFormat": "multi"
+            "type": "string"
           },
           {
             "name": "batchSize",
@@ -1097,21 +1073,9 @@
           {
             "name": "status",
             "in": "query",
-            "description": "Comma separated list of statuses to filter on.",
+            "description": "Comma separated list of statuses to filter on. Allowed values: created, queued, processing, cancelled, completed, failed.",
             "required": false,
-            "type": "array",
-            "items": {
-              "type": "string",
-              "enum": [
-                "created",
-                "queued",
-                "processing",
-                "cancelled",
-                "completed",
-                "failed"
-              ]
-            },
-            "collectionFormat": "multi"
+            "type": "string"
           },
           {
             "name": "batchSize",
@@ -1366,21 +1330,9 @@
           {
             "name": "status",
             "in": "query",
-            "description": "Comma separated list of statuses to filter on.",
+            "description": "Comma separated list of statuses to filter on. Allowed values: created, queued, processing, cancelled, completed, failed.",
             "required": false,
-            "type": "array",
-            "items": {
-              "type": "string",
-              "enum": [
-                "created",
-                "queued",
-                "processing",
-                "cancelled",
-                "completed",
-                "failed"
-              ]
-            },
-            "collectionFormat": "multi"
+            "type": "string"
           },
           {
             "name": "batchSize",
